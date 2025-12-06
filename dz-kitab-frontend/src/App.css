@@ -11,21 +11,27 @@ body {
   font-family: Poppins;
 }
 
+/* ######################################## */
+/* header  */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
 }
-.website-title{
+
+.website-title {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
-.logo{
+
+.logo {
   width: 30px;
 }
+
 header span {
   color: #F3A109;
 }
@@ -45,19 +51,23 @@ header a {
   color: black;
   cursor: pointer;
 }
+
 header .a {
   color: black;
   cursor: pointer;
 }
+
 header .a:hover {
   color: black;
   cursor: pointer;
 }
+
 header a:hover {
   color: #1314D7;
   font-weight: 600;
 }
-header a:active{
+
+header a:active {
   color: #1314D7;
   font-weight: 600;
 }
@@ -90,6 +100,9 @@ header .register-button {
   transition: transform 0.3s ease;
 }
 
+/* ######################################## */
+/* hero section  */
+
 .hero {
   background: linear-gradient(to bottom, #E3E3FD, #E2DAD8);
   display: flex;
@@ -97,7 +110,7 @@ header .register-button {
   align-items: center;
   padding: 0 50px 0 50px;
   position: relative;
-  margin:0;
+  margin: 0;
 }
 
 .hero h3 {
@@ -166,6 +179,67 @@ header .register-button {
   transform: scale(1.2);
 }
 
+/* ######################################## */
+/* services section */ 
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  padding:  100px 50px;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+.services-section span{
+  color: #F3A109;
+}
+.services-section .p{
+  width: 700px;
+  font-weight:500;
+}
+.services-section .services-cards {
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.service-card {
+  position: relative;
+  background-color: #1314D7;
+  border-radius: 10px;
+  width: 230px;
+  height: 200px;
+  padding: 5px 0 0 0;
+}
+.service-card .content {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 1px 5px;
+  box-shadow: #e5e5e5;
+  padding: 10px;
+}
+
+.service-card .content .icon {
+  font-size: 20px;
+}
+
+.service-card .content h4 {
+  font-weight: bold;
+}
+
+.service-card .content .desc {
+  color: #969696;
+  font-size: 12px;
+  width: 100%;
+}
+
+/* ######################################## */
+/* footer */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -173,7 +247,6 @@ footer {
   padding: 20px 50px;
   background: linear-gradient(to bottom, #E3E3FD, #E2DAD8);
   margin: 0;
-
 }
 
 footer span {
