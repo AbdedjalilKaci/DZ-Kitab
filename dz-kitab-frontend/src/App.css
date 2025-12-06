@@ -7,6 +7,24 @@ body {
   flex-direction: column;
 }
 
+::-webkit-scrollbar {
+  width: 10px;  
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F3A109;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1314D7;
+}
+
+
 .layout {
   font-family: Poppins;
 }
