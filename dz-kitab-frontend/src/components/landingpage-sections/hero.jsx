@@ -16,7 +16,7 @@ export const Hero = () => {
                     </button>
                 </div>
             </div>
-            <div className="">
+            <div className="herocover">
                 <img className='heropicture' src='./heropicture.png'></img>
             </div>
         </section>
