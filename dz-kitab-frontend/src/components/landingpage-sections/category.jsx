@@ -12,6 +12,8 @@ export const Category = () => {
                 <CategoryCard title={'Math Books'} image={'./ai2.jpg'}  />
                 <CategoryCard title={'Math Books'} image={'./ai2.jpg'}  />
                 <CategoryCard title={'Math Books'} image={'./ai2.jpg'}  />
+                <CategoryCard title={'Math Books'} image={'./ai2.jpg'}  />
+                <CategoryCard title={'Math Books'} image={'./ai2.jpg'}  />
             </div>
         </section>
     )
